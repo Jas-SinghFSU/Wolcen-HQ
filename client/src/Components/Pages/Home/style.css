@@ -1,0 +1,43 @@
+.homePageLayout {
+  background-color: #1a1a1e;
+  background-repeat: space;
+  height: 100%;
+  min-width: 1250px;
+}
+
+.searchBuilds {
+  margin-top: 5%;
+  max-height: 200px;
+  margin-bottom: 30px;
+}
+
+.topBuildsList {
+  margin-bottom: 30px;
+}
+
+.wolcenTextContainer {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wolcenTextLabel {
+  font-size: 50px;
+  color: rgb(226, 177, 142);
+  border-bottom: 10px;
+  border-bottom-style: groove;
+  width: min-content;
+  align-self: center;
+}
+
+.wolcenSubtextValue {
+  font-size: 14px;
+  color: rgb(199, 199, 199);
+  margin-top: 5px;
+}
+
+.wolcenSubtextValue a {
+  color: rgb(70, 200, 240);
+}

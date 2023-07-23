@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400|Merienda+One|Metal+Mania|Open+Sans|Yrsa&display=swap");
+
+body {
+  font-family: Oswald !important;
+  overflow: auto;
+  background: #1a1a1e;
+}
+
+.contentContainer {
+  display: flex;
+  background: #1a1a1e;
+  font-family: Oswald;
+}
+.pageContentContainer {
+  transition: width 0.1s linear;
+  -webkit-transition: width 0.1s;
+  min-height: 100vh;
+  left: 0px;
+}
+
+.noSelectText {
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}

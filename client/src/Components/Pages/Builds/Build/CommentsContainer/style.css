@@ -1,0 +1,70 @@
+.commentsContainer {
+  margin-top: 20px;
+}
+
+.newCommentButtonContainer {
+  text-align: right;
+  width: 75%;
+  margin: auto;
+}
+.newCommentButton {
+  white-space: pre;
+}
+.newCommentButton.cancel {
+  margin-right: 15px;
+}
+.commentInputButtons {
+  margin-top: 15px;
+}
+.commentQuill {
+  width: 80%;
+  margin: auto;
+}
+.commentQuill .ql-editor {
+  height: 200px;
+  min-height: unset !important;
+  resize: vertical;
+}
+
+.commentItemsContainer {
+  margin: 50px 0 20px 0;
+}
+
+.commentInputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputError {
+  margin-top: 5px;
+  color: rgb(238, 108, 108);
+}
+
+.emptyCommentsContainer {
+  height: 100px;
+  color: rgba(218, 218, 218, 0.32);
+}
+
+.newCommentButton-disabled {
+  background-color: #6ee9ff38 !important;
+  white-space: pre;
+  color: gray !important;
+  cursor: not-allowed;
+}
+.newCommentButton-disabled:hover {
+  background-color: #6ee9ff38;
+  color: gray;
+}
+
+.commentPaginationContainer {
+  text-align: left;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+#disabledCommentTooltip {
+  background: rgba(0, 0, 0, 0.925) !important;
+  border: 1px solid rgba(163, 136, 77, 0.342) !important;
+  margin-bottom: 20px;
+}

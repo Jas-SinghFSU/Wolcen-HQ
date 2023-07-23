@@ -1,0 +1,5 @@
+{
+  "steamAPIKey": "your steam api key here",
+  "mongoURI": "your uri here",
+  "rssFeedUrl": "rss feed url here"
+}

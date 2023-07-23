@@ -1,0 +1,39 @@
+.homeSectionLabel {
+  width: 100%;
+  border-bottom: 2px solid;
+  color: rgb(226, 177, 142);
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.newsFeedData {
+  color: rgb(182, 182, 182);
+  font-size: 15px;
+  margin-left: 3px;
+}
+
+.newsFeedData:hover {
+  text-decoration: underline;
+  color: rgb(171, 220, 224);
+}
+
+.feedItemContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 5px 0 5px 0;
+  background: #191d20de;
+}
+
+.feedItemContainer:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.048);
+}
+
+.feedItemDate {
+  align-self: flex-end;
+  text-align: right;
+  color: rgb(163, 144, 109);
+  margin-right: 3px;
+}

@@ -1,0 +1,28 @@
+.lockButtonContainer {
+  margin-bottom: 15px;
+}
+
+.toggleLockButton {
+  background: none !important;
+  color: sandybrown;
+}
+.toggleLockButton .anticon-unlock {
+  font-size: 18px !important;
+}
+.toggleLockButton .anticon-lock {
+  font-size: 18px !important;
+}
+.toggleLockButton:hover {
+  background: none !important;
+  border-color: salmon;
+  color: sandybrown;
+}
+
+.toggleLockButton:focus {
+  background: none !important;
+  border-color: salmon;
+  color: sandybrown;
+}
+.viewGofColumn {
+  margin: auto;
+}

@@ -1,0 +1,215 @@
+/* Cancel button */
+.customDefault.ant-btn {
+  background-color: #c2544c !important;
+  border-color: #c94d44 !important;
+  color: white !important;
+}
+
+.customDefault.ant-btn:hover {
+  background-color: #ff8b83 !important;
+  border-color: #c94d44 !important;
+}
+
+.customDefault.ant-btn:focus {
+  background-color: #ff8b83 !important;
+  border-color: #c94d44 !important;
+}
+
+/* Enabled primary button */
+.customPrimary.ant-btn-primary {
+  background-color: #53a0ae !important;
+  border-color: #53a0ae !important;
+}
+
+.customPrimary.ant-btn-primary:hover {
+  background-color: #72ddf0 !important;
+  border-color: #72ddf0 !important;
+}
+
+.customPrimary.ant-btn-primary:focus {
+  background-color: #53a0ae !important;
+  border-color: #53a0ae !important;
+}
+
+/* Disabled primary button */
+.customPrimary-disabled.ant-btn-primary {
+  background-color: #4c6c72 !important;
+  border-color: #4c6c72 !important;
+  color: rgb(185, 185, 185) !important;
+}
+
+.customPrimary-disabled.ant-btn-primary:hover {
+  background-color: #4c6c72 !important;
+  border-color: #4c6c72 !important;
+  color: rgb(185, 185, 185) !important;
+}
+
+.customPrimary-disabled.ant-btn-primary:focus {
+  background-color: #4c6c72 !important;
+  border-color: #4c6c72 !important;
+  color: rgb(185, 185, 185) !important;
+}
+
+/***************** BUTTON OVERRIDES FOR MODALS *****************/
+/* Cancel button */
+.antModal .ant-btn {
+  background-color: #c2544c !important;
+  border-color: #c94d44 !important;
+  color: white !important;
+}
+
+.antModal .ant-btn:hover {
+  background-color: #ff8b83 !important;
+  border-color: #c94d44 !important;
+}
+
+.antModal .ant-btn:focus {
+  background-color: #ff8b83 !important;
+  border-color: #c94d44 !important;
+}
+
+/* Enabled primary button */
+.antModal .ant-btn-primary {
+  background-color: #53a0ae !important;
+  border-color: #53a0ae !important;
+}
+
+.antModal .ant-btn-primary:hover {
+  background-color: #72ddf0 !important;
+  border-color: #72ddf0 !important;
+}
+
+.antModal .ant-btn-primary:focus {
+  background-color: #53a0ae !important;
+  border-color: #53a0ae !important;
+}
+
+/* Disabled primary button */
+.antModal .ant-btn-primary[disabled] {
+  background-color: #4c6c72 !important;
+  border-color: #4c6c72 !important;
+  color: rgb(185, 185, 185) !important;
+}
+
+.antModal .ant-btn-primary[disabled]:hover {
+  background-color: #4c6c72 !important;
+  border-color: #4c6c72 !important;
+  color: rgb(185, 185, 185) !important;
+}
+
+.antModal .ant-btn-primary[disabled]:focus {
+  background-color: #4c6c72 !important;
+  border-color: #4c6c72 !important;
+  color: rgb(185, 185, 185) !important;
+}
+
+/* Search bar button */
+.ant-input-search-button {
+  background: rgb(255, 164, 79);
+  border-color: rgb(255, 179, 79);
+}
+.ant-input-search-button:hover {
+  background: rgb(245, 196, 132);
+  border-color: rgb(238, 163, 64);
+}
+/***************** SELECT BUTTONS *****************/
+.customRadioButton.ant-radio-button-wrapper {
+  background: #a2a2a226;
+}
+.customRadioButton.ant-radio-button-wrapper:hover {
+  border-color: #dda971 !important;
+}
+.ant-radio-button-wrapper:hover:not(.ant-radio-button-wrapper-disabled)::before {
+  background: #dda971;
+}
+.customRadioButton.ant-radio-button-wrapper > span {
+  color: #cecece;
+}
+
+.customRadioButton.ant-radio-button-wrapper-checked {
+  background: #a2a2a226;
+  border: 1px solid;
+  border-color: #dda971 !important;
+}
+.customRadioButton.ant-radio-button-wrapper-checked > span {
+  color: #dda971;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before {
+  background: #dda971;
+}
+
+/***************** PAGINATION STYLING *****************/
+.customPagination .ant-pagination-item {
+  background: #2e3031 !important;
+  border-color: rgba(255, 204, 110, 0.185);
+}
+.customPagination .ant-pagination-item:hover {
+  border-color: #6ed2e4;
+}
+.customPagination .ant-pagination-item-active {
+  border-color: #6ed2e4;
+}
+.customPagination .ant-pagination-item-active a {
+  color: #6ed2e4 !important;
+}
+.customPagination .ant-pagination-item-ellipsis {
+  color: rgb(218, 218, 218) !important;
+}
+
+.customPagination .ant-pagination-prev a {
+  background: #2e3031 !important;
+  border-color: rgba(255, 204, 110, 0.185);
+}
+.customPagination .ant-pagination-prev a:hover {
+  border-color: #6ed2e4;
+}
+.customPagination .ant-pagination-prev.ant-pagination-disabled a {
+  border-color: grey;
+}
+.customPagination .ant-pagination-prev.ant-pagination-disabled span {
+  color: grey;
+}
+
+.customPagination .ant-pagination-next a {
+  background: #2e3031 !important;
+  border-color: rgba(255, 204, 110, 0.185);
+}
+.customPagination .ant-pagination-next a:hover {
+  border-color: #6ed2e4;
+}
+.customPagination .ant-pagination-next.ant-pagination-disabled a {
+  border-color: grey;
+}
+.customPagination .ant-pagination-next.ant-pagination-disabled span {
+  color: grey;
+}
+
+.customPagination li a {
+  color: rgb(218, 218, 218) !important;
+}
+
+.customPagination .ant-pagination-options {
+  display: none;
+}
+
+/***************** SPINNING LOADER STYLING *****************/
+
+.customLoader .ant-spin-dot-item {
+  background-color: #53daf1;
+}
+
+/***************** NAVBAR STYLING *****************/
+.antdMenuItem {
+  width: 90% !important;
+  border-bottom: 2px solid;
+  padding-bottom: 12px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border-color: #8080804f !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  height: 44px !important;
+  color: rgba(255, 255, 255, 0.85) !important;
+  min-width: max-content !important;
+}
